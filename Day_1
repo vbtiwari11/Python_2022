@@ -1,4 +1,4 @@
-As you've seen, ndigits=-1 rounds to the nearest 10, ndigits=-2 rounds to the nearest 100 and so on. Where might this be useful? Suppose we're dealing with large numbers:
+1.As you've seen, ndigits=-1 rounds to the nearest 10, ndigits=-2 rounds to the nearest 100 and so on. Where might this be useful? Suppose we're dealing with large numbers:
 
 The area of Finland is 338,424 km²
 The area of Greenland is 2,166,086 km²
@@ -7,3 +7,5 @@ We probably don't care whether it's really 338,424, or 338,425, or 338,177. All 
 
 The area of Finland is 338,000 km²
 The area of Greenland is 2,166,000 km²
+
+2. all strings are treated as true, except the empty string ,all numbers are treated as true, except 0
